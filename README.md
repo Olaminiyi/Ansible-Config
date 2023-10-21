@@ -4,8 +4,7 @@
 
 
  ### Dependences to be installed
- ==============================
-
+ 
 - yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 - yum install -y dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
 - yum install python3 python3-pip wget unzip git -y
@@ -16,8 +15,7 @@
 - python3 -m pip install psycopg2==2.7.5 --ignore-installed
 
 # Installing JAVA
- ============================
-
+ 
 - sudo yum install java-11-openjdk-devel -y
 - open the bash profile
   
@@ -31,7 +29,6 @@
 - source ~/.bash_profile
 
 ## Install php
-===============================
 
 - yum module reset php -y
 - yum module enable php:remi-7.4 -y
@@ -40,7 +37,6 @@
 - systemctl enable php-fpm
 
 ## Ansible dependencies to install
-===============================
 
 ### For Mysql Database
 - ansible-galaxy collection install community.mysql
@@ -48,22 +44,19 @@
 - ansible-galaxy collection install community.postgresql
 
 ### Install composer
- ================================
 - curl -sS https://getcomposer.org/installer | php
 - sudo mv composer.phar /usr/bin/composer
 -  Verify Composer is installed or not
 - composer --version
 
 ### Install phpunit, phploc
-=================================
 
 - sudo dnf --enablerepo=remi install php-phpunit-phploc
 - wget -O phpunit https://phar.phpunit.de/phpunit-7.phar
 - chmod +x phpunit
 - sudo yum install php-xdebug
 
-### for database connection
-============================== 
+### for database connection 
 - DB_CONNECTION=mysql DB_PORT=3306
 -  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf sudo yum install mysql -y
 
