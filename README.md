@@ -4,9 +4,9 @@
 
 
 # #  Dependences to be installed
-# # # ==============================
+ ==============================
 
-# # # yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 # # # yum install -y dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
 # # # yum install python3 python3-pip wget unzip git -y
 # # # python3 -m pip install --upgrade setuptools
