@@ -21,9 +21,9 @@
   
 ##  vi .bash_profile
 - paste the below in the bash profile
-- export JAVA_HOME=$(dirname 
-- (readlink 
-(which javac))))) export PATH=$PATH:$JAVA_HOME/bin export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
+export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))
+export PATH=$PATH:$JAVA_HOME/bin
+export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
 
 # reload the bash profile
 - source ~/.bash_profile
