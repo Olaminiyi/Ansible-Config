@@ -3,7 +3,7 @@
 - name: database assignment
   import_playbook: ../static-assignments/db.yml
 
-#- hosts: nginx
+- hosts: nginx
 #- name: nginx assignment
 #  import_playbook: ../static-assignments/nginx.yaml
 
