@@ -1,8 +1,9 @@
 [nginx]
-172.31.38.85 ansible_ssh_user='ec2-user'
+172.31.7.193 ansible_ssh_user='ec2-user'
 
 [db]
-172.31.27.177  ansible_ssh_user='ubuntu'
+172.31.11.102 ansible_ssh_user='ubuntu'
 
-[todo]
-ansible_ssh_user='ec2-user'
+[artifactory]
+172.31.20.139  ansible_ssh_user='ec2-user'
+
