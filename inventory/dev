@@ -7,3 +7,5 @@
 [artifactory]
 172.31.5.54  ansible_ssh_user='ec2-user'
 
+[todo]
+172.31.42.5  ansible_ssh_user='ec2-user'
