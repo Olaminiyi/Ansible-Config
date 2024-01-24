@@ -50,10 +50,10 @@
 
     - name: Download the artifact
       get_url:
-        url: http://18.170.3.112:8082/artifactory/Olaminiyi/php-todo
+        url: http://18.130.223.140:8082/artifactory/Olaminiyi/
         dest: /home/ec2-user/
         url_username: admin
-        url_password: Olaminiyi@88  
+        url_password: cmVmdGtuOjAxOjE3Mzc1MDIxNDE6bmkwTHZlUzQ1ZGpDRThPOEJFUEl0aUo1bzdR  
 
 
     - name: unzip the artifacts
