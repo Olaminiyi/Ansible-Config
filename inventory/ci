@@ -5,7 +5,7 @@
 #172.31.2.127 ansible_ssh_user='ec2-user'
 
 [sonar]
- 172.31.7.188 ansible_ssh_user='ubuntu'
+172.31.3.64 ansible_ssh_user='ubuntu'
 
 #[artifactory]
 #172.31.5.54 ansible_ssh_user='ec2-user' 
